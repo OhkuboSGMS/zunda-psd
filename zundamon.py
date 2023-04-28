@@ -15,7 +15,7 @@ p_dir.mkdir(parents=True, exist_ok=True)
 psd.save(str(p_dir.joinpath('all.png')))
 
 def parse_ad_dict(psd:PSDImage)->Dict[str,Any]:
-    
+    pass
 for layer in psd:
     print(layer)
     if layer.is_group():
